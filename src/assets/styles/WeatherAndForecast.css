@@ -1,0 +1,16 @@
+.Forecast {
+    display: flex;
+    justify-content: space-around;
+    background: #8041dba1;
+    margin: 1rem 3rem;
+    font-weight: 500;
+}
+
+.Forecast p {
+    margin: 8px;
+}
+.Forecast__Day {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}

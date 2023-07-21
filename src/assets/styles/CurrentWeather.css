@@ -1,0 +1,29 @@
+
+.City__Name {    
+    display: flex;
+    flex: grow;
+    background: #8041dba1;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 0 3rem;
+}
+.City__Name p {
+    margin: 8px 0;
+}
+.Weather__Data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Temperature__Max {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.Weather__Icon {
+    margin-top: 13px;
+    font-size: 66px;
+}
